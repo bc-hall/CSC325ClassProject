@@ -12,7 +12,7 @@ Each Markdown file in this directory represents a unique user persona, detailing
 
 ## Example Structure of a Persona File
 
-
+```
 # Persona Name
 
 ## Background
@@ -31,7 +31,7 @@ Each Markdown file in this directory represents a unique user persona, detailing
 ## Challenges
 - Challenge 1
 - Challenge 2
-
+```
 
 ## Usage
 
