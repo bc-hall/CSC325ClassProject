@@ -36,3 +36,7 @@ Each Markdown file in this directory represents a unique user persona, detailing
 ## Usage
 
 These personas can be used in user research, product development, marketing strategies, or any other aspect of project planning where understanding the target audience is key.
+
+## AI Usage
+
+ChatGPT was used to generate Developer, End User and Owner user personas.
