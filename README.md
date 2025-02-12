@@ -23,18 +23,5 @@ The website is designed with the goal of attracting potential employers by:
 ## Technologies Used
 - TBD
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/personal-portfolio.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd personal-portfolio
-   ```
-
-3. Open the `index.html` file in your browser or run a local server.
-
 ## License
 No license has been provided.
