@@ -90,15 +90,14 @@ export default function Hero() {
             </Typography>
           </Typography>
           <Typography
+            variant="h4"
             sx={{
               textAlign: 'center',
               color: 'text.secondary',
               width: { sm: '100%', md: '80%' },
             }}
           >
-            Explore our cutting-edge dashboard, delivering high-quality solutions
-            tailored to your needs. Elevate your experience with top-tier features
-            and services.
+            Subheading
           </Typography>
           <Stack
             direction={{ xs: 'column', sm: 'row' }}
@@ -133,6 +132,10 @@ export default function Hero() {
               Start now
             </Button>
           </Stack>
+          <img
+            src="/images/placeholder.jpg"
+            alt="placeholder image"
+          />
           <Typography
             variant="caption"
             color="text.secondary"
