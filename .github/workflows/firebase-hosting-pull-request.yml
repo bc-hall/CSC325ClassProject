@@ -14,14 +14,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - working-directory: ./website
-      - run: npm install
+      - name: Install
+        working-directory: ./website
+        run: npm install
       
-      - working-directory: ./website
-      - run: npm run test
+      - name: Run test
+        working-directory: ./website
+        run: npm run test
 
-      - working-directory: ./website
-      - run: npm run build
+      - name: Run build
+        working-directory: ./website
+        run: npm run build
+
+        
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
