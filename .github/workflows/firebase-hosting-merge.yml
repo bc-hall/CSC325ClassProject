@@ -20,11 +20,11 @@ jobs:
         working-directory: ./website
         run: npm run build
 
-      - name: Firebase deploy
-        working-directory: ./website
-        uses: FirebaseExtended/action-hosting-deploy@v0
+
+      - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CSC_325_PROJECT_10D96 }}
           channelId: live
           projectId: csc-325-project-10d96
+          entryPoint: ./website
