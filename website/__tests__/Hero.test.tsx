@@ -14,16 +14,20 @@ describe('Hero', () => {
   })
 
   it('renders other text', () => {
+    render(<Hero />)
+
     const text = screen.getByRole('heading', {level: 4})
     expect(text).toBeInTheDocument()
   })
 
   it('renders a button', () => {
+    render(<Hero />)
     const button = screen.getByRole('button')
     expect(button).toBeInTheDocument()
   })
 
   it('renders an image', () => {
+    render(<Hero />)
     const image = screen.getByRole('img')
     expect(image).toBeInTheDocument()
   })
